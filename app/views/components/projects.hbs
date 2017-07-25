@@ -1,0 +1,23 @@
+{{#if resume.work.length}}
+<div class="container projects-container">
+    {{> title icon="fa fa-microchip" value="Projects"}}
+
+    {{#each resume.projects}}
+        <section class="item">
+            {{> section-header name=this.name }}
+
+            {{#if summary}}
+            <p class="summary">{{summary}}</p>
+            {{/if}}
+
+            {{#if highlights.length}}
+            <ul>
+                {{#each highlights}}
+                <li>{{.}}</li>
+                {{/each}}
+            </ul>
+            {{/if}}
+        </section>
+    {{/each}}
+</div>
+{{/if}}

@@ -1,8 +1,6 @@
-# jsonresume-theme-caffeine ![](https://travis-ci.org/kelyvin/jsonresume-theme-caffeine.svg?branch=master) [![npm version](https://badge.fury.io/js/jsonresume-theme-caffeine.svg)](https://www.npmjs.com/package/jsonresume-theme-caffeine)
+# jsonresume-theme-caffeine
 
-This is the Caffeine theme repository for the [Json Resume](https://jsonresume.org/) project. Unlike the [json-theme-boilerplate](https://github.com/jsonresume/jsonresume-theme-boilerplate) project, this environment has a much improved developer environment to make editing your theme super easy to do.
-
-![Richard Hendriks Reume](http://i.imgur.com/yktvc8m.png)
+This is the Decaf theme repository for the [JSON Resume](https://jsonresume.org/) project. This theme was forked from the Caffeine theme. Unlike the [json-theme-boilerplate](https://github.com/jsonresume/jsonresume-theme-boilerplate) project, this environment has a much improved developer environment to make editing your theme super easy to do.
 
 ## Table of Contents
 

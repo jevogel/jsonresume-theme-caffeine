@@ -1,11 +1,15 @@
 .container {
-    padding-top: spacing(4);
+    background: white;
+    padding: spacing(2);
+    margin: spacing(2);
+    @include shadow();
+    @include clearfix();
 }
 
 .keyline {
     width: spacing(9);
     margin: 8px 0 10px;
-    border-top: 1px solid $primary-color;
+    border-top: 2px solid $primary-color;
 }
 
 .pull-left {
@@ -28,7 +32,7 @@
         height: $profile-pic-size;
         width: $profile-pic-size;
         border-radius: 50%;
-        border: 2px solid $primary-color;
+        border: 3px solid $primary-color;
     }
 }
 

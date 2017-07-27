@@ -26,7 +26,7 @@ h2 {
 
 h3 {
     @include lato(300);
-    @include font-size(3.5);
+    @include font-size(2.5);
     letter-spacing: .4px;
 
     &.bold {

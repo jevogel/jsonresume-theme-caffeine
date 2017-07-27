@@ -1,19 +1,17 @@
 .page {
-    background: white;
-    width: $page-width;
-    min-height: $page-height;
+    background: gray;
+    width: auto;
+    height: auto;
     display: block;
-    margin: 0 auto;
+    margin: spacing(5);
     border-top: 10px solid $primary-color;
-    padding: 36px 22px 30px 34px;
-    @include shadow();
-    @include clearfix();
+    padding: spacing(10);
 }
 
 .left-column {
     float: left;
-    width: $aside-width;
-    margin-right: $aside-margin;
+    max-width: $aside-width;
+    margin-right: auto;
     word-wrap: break-word;
 }
 
